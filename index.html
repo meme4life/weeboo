@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1"> <!-- use this to set the width of the page to follow the screen-width of the device (which will vary depending on the device). -->
+<title>Weeboo - Shopping website</title>
+<!-- define a link between a document -->
+<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/arrow.css">
+<link rel="stylesheet" href="css/fixed.css">
+<link rel="stylesheet" href="css/waypoints.css">
+</head>
+<!-- 5-page outline per original theme sections 
+Page 1: Homepage
+Page 2: About Us
+Page 3: All products (Display all products)
+Page 4: Shop (Specify the type of products)(*Drop Down Menu)
+Page 5: Contact
+-links to different pages
+-Scrollspy removed for active nav links
+-->
+<body data-spy="scroll" data-target="#navbarResponsive">
+<!-- Start Home Section -->
+<div id="home">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top ">
+<div class="container-fluid">
+
+		<!---SYMBOLS-->	
+					<!-- <a class="navbar-brand" href="index.html"><img src="img/Hentaihub.png" alt="Hentaihub"></a>  -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">  <!--- left-aligned by default -->
+							<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span> <!--- white bars -->
+				</button>
+				<!----------->
+
+		<!---Drop down menu-->	
+		<!---for grouping and hiding navbar contents by a parent breakpoint-->	
+				<div class="collapse navbar-collapse" id = "navbarResponsive"> 
+					<ul class="navbar-nav ml-auto"> <!-- auto margin left -->
+						<li class="nav-item">
+							<a href="index.html" class="nav-link active">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" id = "navbarDrop" class="nav-link dropdown-toggle" data-toggle = "dropdown"  aria-haspopup="true" aria-expanded="false">Shop</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li class="dropdown-submenu">
+									<a class ="dropdown-item" href="t_shirt.html">< T-SHIRT ></a>
+									<a class ="dropdown-item" href="jackets.html">< JACKETS ></a>
+									<a class ="dropdown-item" href="pants.html">< PANTS ></a>
+									<a class ="dropdown-item" href="accessories.html">< ACCESSORIES ></a>
+									<a class ="dropdown-item" href="sneakers.html">< SNEAKERS ></a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+						
+					</ul>		
+					
+					<button class=" btn-outline-light cart-btn">
+						<span class="nav-icon">
+								<i class="fas fa-cart-plus"></i>
+								<div class="cart-items">0</div>
+						</span>
+					</button>
+
+				</div>
+				<!------------------------------------------------------------------->	
+
+</div>
+</nav>
+
+<!--- End Navigation -->
+<!--- Start landing page theme -->
+<!-- <div class="landing">
+<div class="home-wrap">
+	<div class="home-inner">
+	</div>
+</div>
+</div> -->
+<!--- End landing page theme -->
+
+<!--- Start landing page caption -->
+<!--- Start Carousel Image Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<!-- Slide One -->
+		<div class="carousel-item active" style="background-image: url('img/fashion3.png')" alt="">
+			<div class="carousel-caption text-center">
+				<div class="os-animation" data-animation="bounceInUp" data-delay=".6s">
+					<h1>Welcome to Weeboo</h1>
+				</div>
+				
+				<div class="os-animation" data-animation="bounceInUp" data-delay="1s">
+					<a class="btn btn-outline-light btn-lg" href="#features">Get Started</a>
+				</div>
+			</div>
+			<!--- End Carousel Caption -->
+		</div>
+		<!-- Slide Two -->
+		<div class="carousel-item" style="background-image: url('img/portfolio/slide_2.jpg')" alt=""></div>
+		<!-- Slide Three -->
+		<div class="carousel-item" style="background-image: url('img/portfolio/slider_3.jpg')" alt=""></div>
+	</div>
+	<!--- End Carousel Inner -->
+	<!--- Previous & Next Buttons -->
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+<!--- End landing page caption -->
+
+<!--- Bouncing down arrow -->
+<a class="down-arrow" href="features">
+	<div class="arrow bounce d-none d-md-block">
+		<i class="fas fa-angle-double-down"></i>
+	</div>
+</a>
+
+</div>
+<!--- End Home Section -->
+
+
+
+
+<div id="features" class="offset">
+<!---Start Animation -->
+<div class="os-animation" data-animation="fadeInUp">
+	<div class="narrow text-center">
+		<div class="col-12">
+			<h1>Weeboo Shopping Online</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+			aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+			<a class="btn btn-secondary btn-sm" href="contact.html">Request A Quote</a>
+			<a class="btn btn-turquoise btn-sm" href="#portfolio">See Our Products</a>
+		</div>
+	</div>
+</div>
+<!--- End Animation -->
+
+<!--Start fixed background -->
+<div class="fixed-background">
+<div class="row black">
+
+<div class="col-12" data-animation = 'fadeInUp'>
+	<h3 class="heading">Built with</h3>
+	<div class="heading-underline"></div>
+</div>
+
+<div class = "col-md-4">
+<div class="os-animation" data-animation = 'fadeInLeft'>
+	
+	<h3>HTML 5</h3>
+	<div class="feature">
+		<span class="fa-layers fa-3x">
+			<i class="fab fa-html5"></i>
+		</span>
+	</div>
+	<p class="lead">Built with the latest, HTML 5.</p>
+</div>
+</div>
+
+<div class = "col-md-4">
+<div class="os-animation" data-animation = 'fadeInUp'>
+	
+	<h3>CSS 3</h3>
+	<div class="feature">
+		<span class="fa-layers fa-3x">
+			<i class="fab fa-css3-alt"></i>
+		</span>
+	</div>
+	<p class="lead">Built with the latest, CSS 3.</p>
+</div>
+</div>
+
+<div class = "col-md-4">
+<div class="os-animation" data-animation = 'fadeInRight'>
+	
+	<h3>Bootstrap 4</h3>
+	<div class="feature">
+		<span class="fa-layers fa-3x">
+			<i class="fas fa-bold"></i>
+		</span>
+	</div>
+<p class="lead">Built with the latest, Bootstrap 4.</p>
+</div>
+</div>
+
+
+</div> <!-- End row black -->
+
+			<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+
+</div> <!--End fixed background -->
+
+</div> <!--End feature section -->
+
+<!--- Start Portfolio Section -->
+<div id="portfolio" class="offset">
+
+	<div class="row padding">
+
+		<div class="col-12 os-animation" data-animation="fadeInUp">
+			<h3 class="heading">Categories</h3>
+			<div class="heading-underline"></div>
+		</div>
+
+	</div>
+	<!--- End Row -->
+	<!--- Start Portfolio Grid -->
+
+<div class="container-fluid">
+	<div class="row no-padding">
+
+<div class="col-sm-10 col-md-4">
+	<div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="t_shirt.html" >
+				<img class="example-image" src="img/portfolio/t-shirt.jpg" alt="T-shirt">
+				<div class="overlay">
+					<h2>T-shirt</h2>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-10 col-md-4">
+	<div class="os-animation" data-animation="bounceInUp">
+		<div class="portfolio-item">
+			<a href="shirt.html">
+				<img class="example-image" src="img/portfolio/shirt.jpg" alt="">
+					<div class="overlay">
+						<h2>Shirt</h2>
+					</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-10 col-md-4">
+	<div class="os-animation" data-animation="bounceInRight">
+		<div class="portfolio-item">
+			<a href="pants.html" >
+				<img class="example-image" src="img/portfolio/pants.jpg" alt="">
+					<div class="overlay">
+						<h2>Pants</h2>
+					</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-10 col-md-4">
+	<div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="jackets.html">
+				<img class="example-image" src="img/portfolio/jackets.jpg" alt="">
+					<div class="overlay">
+						<h2>Jackets</h2>
+					</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-10 col-md-4">
+	<div class="os-animation" data-animation="bounceInUp" data-delay=".2s">
+		<div class="portfolio-item">
+			<a href="accessories.html">
+				<img class="example-image" src="img/portfolio/accessories.jpg" alt="">
+					<div class="overlay">
+						<h2>Accessories</h2>
+					</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-10 col-md-4 service-item">
+	<div class="os-animation" data-animation="bounceInRight">
+
+		<div class="portfolio-item">
+			<a href="shoes.html">
+				<img class="example-image" src="img/portfolio/shoes.jpg" alt="T-shirt">
+					<div class="overlay">
+						<h2>Shoes</h2>
+					</div>
+			</a>
+		</div>
+
+	</div>
+</div>
+<!--Cart-->
+<div class="cart-overlay">
+	<div class="cart">
+		<span class="close-cart">
+			<i class="fas fa-window-close"></i>
+		</span>
+		<h2>your cart</h2>
+		<div class="cart-content">
+			<!--cart item-->
+			<!-- <div class="cart-item">
+	          
+	        </div> -->
+			<!--end of cart item-->
+		</div>
+		<div class="cart-footer">
+			<h3>your total: $ <span class="cart-total">0</span></h3>
+			<button class="clear-cart banner-btn">clear cart</button>
+		</div>
+	</div>
+</div>
+<!--End of Cart-->
+
+
+</div>
+<!--- End Row -->
+</div>
+<!--- End Container -->
+<!--- End Portfolio Grid -->
+
+<!---Contact section -->
+<div id="contact" class="offset">
+<footer>
+<div class="row text-center">
+<div class="col-md-4">
+	<!-- <img src="img/Hentaihub.png"> -->
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+</div>
+
+<div class="col-md-4">
+	<h3 class="text-center">Contact info</h3>
+	<strong>Our location</strong>
+	<p>69 Jojoke Dio</br>Area 51, Nevada</p>
+	<strong>Contact</strong>
+	<p>(420) 69420-69420</br>email@weeboo.com</p>
+</div>
+
+<div class="col-md-4">
+	<h3>CONTACT WITH US</h3>
+	<a href="#"><i class="fab fa-facebook-square"></i></a>
+	<a href="#"><i class="fab fa-reddit-square"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-facebook-square"></i></a>
+	<br><br>
+	<a class="btn btn-outline-light btn-sm" href="contact.html">Send us an email</a>
+</div>
+
+<hr class="socket">
+&copy; WEEBOO.
+</div>  <!--End row -->
+</footer> <!--End footer -->
+</div> <!--End Contact section -->
+<a href="#home" class="top-scroll">
+<i class="fas fa-angle-up"></i>
+</a>
+
+<!--- Script Source Files -->
+<script src="app.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/contact.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
