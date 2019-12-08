@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "JACKET 1",
+        "price": 50.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "JACKET 2",
+        "price": 52.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "JACKET 3",
+        "price": 47.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "JACKET 4",
+        "price": 49.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket4.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "JACKET 5",
+        "price": 51.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket5.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "JACKET 6",
+        "price": 52.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "JACKET 7",
+        "price": 55.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket7.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "JACKET 8",
+        "price": 53.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/jackets/jacket8.jpg" } }
+        }
+      }
+    }
+  ]
+}

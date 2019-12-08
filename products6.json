@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "51" },
+      "fields": {
+        "title": "SHOE 1",
+        "price": 110.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "52" },
+      "fields": {
+        "title": "SHOE 2",
+        "price": 112.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "53" },
+      "fields": {
+        "title": "SHOE 3",
+        "price": 113.69,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "54" },
+      "fields": {
+        "title": "SHOE 4",
+        "price": 102.69,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe4.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "55" },
+      "fields": {
+        "title": "SHOE 5",
+        "price": 108.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe5.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "56" },
+      "fields": {
+        "title": "SHOE 6",
+        "price": 102.69,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "57" },
+      "fields": {
+        "title": "SHOE 7",
+        "price": 105.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe7.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "58" },
+      "fields": {
+        "title": "SHOE 8",
+        "price": 103.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shoes/shoe8.jpg" } }
+        }
+      }
+    }
+  ]
+}

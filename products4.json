@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "PANT 1",
+        "price": 40.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "PANT 2",
+        "price": 42.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "PANT 3",
+        "price": 40.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "PANT 4",
+        "price": 42.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant4.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "PANT 5",
+        "price": 43.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant5.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "PANT 6",
+        "price": 42.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "PANT 7",
+        "price": 45.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant7.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "PANT 8",
+        "price": 43.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/pants/pant8.jpg" } }
+        }
+      }
+    }
+  ]
+}

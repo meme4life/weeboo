@@ -3,70 +3,70 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
+        "title": "T-SHIRT 1",
         "price": 10.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-1.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt1.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
+        "title": "T-SHIRT 2",
         "price": 12.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-2.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt2.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
+        "title": "T-SHIRT 3",
         "price": 12.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-3.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt3.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
+        "title": "T-SHIRT 4",
         "price": 22.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-4.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt4.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
+        "title": "T-SHIRT 6",
+        "price": 12.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-5.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt5.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
+        "title": "T-SHIRT 7",
+        "price": 16.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-6.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt6.jpg" } }
         }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
+        "title": "T-SHIRT 8",
+        "price": 15.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-7.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt7.jpg" } }
         }
       }
     },
@@ -74,9 +74,9 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "table",
-        "price": 33.99,
+        "price": 13.99,
         "image": {
-          "fields": { "file": { "url": "./img/products/product-8.jpeg" } }
+          "fields": { "file": { "url": "./img/products/t-shirt/tshirt8.jpg" } }
         }
       }
     }

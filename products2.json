@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "SHIRT 1",
+        "price": 30.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "SHIRT 2",
+        "price": 25.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "SHIRT 3",
+        "price": 32.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "SHIRT 4",
+        "price": 22.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt4.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "SHIRT 5",
+        "price": 28.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt5.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "SHIRT 6",
+        "price": 32.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt6.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "SHIRT 7",
+        "price": 35.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt7.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "SHIRT 8",
+        "price": 33.99,
+        "image": {
+          "fields": { "file": { "url": "./img/products/shirt/shirt8.jpg" } }
+        }
+      }
+    }
+  ]
+}

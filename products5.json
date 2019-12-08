@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "ACCESSORY 1",
+        "price": 20.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory1.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "42" },
+      "fields": {
+        "title": "ACCESSORY 2",
+        "price": 22.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory2.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "43" },
+      "fields": {
+        "title": "ACCESSORY 3",
+        "price": 23.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory3.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "44" },
+      "fields": {
+        "title": "ACCESSORY 4",
+        "price": 24.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory4.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "45" },
+      "fields": {
+        "title": "ACCESSORY 5",
+        "price": 25.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory5.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "46" },
+      "fields": {
+        "title": "ACCESSORY 6",
+        "price": 22.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory6.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "47" },
+      "fields": {
+        "title": "ACCESSORY 7",
+        "price": 21.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory7.jpg" }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "48" },
+      "fields": {
+        "title": "ACCESSORY 8",
+        "price": 23.99,
+        "image": {
+          "fields": {
+            "file": { "url": "./img/products/accessories/accessory8.jpg" }
+          }
+        }
+      }
+    }
+  ]
+}
